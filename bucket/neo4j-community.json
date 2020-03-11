@@ -5,8 +5,8 @@
     "url": "https://neo4j.com/artifact.php?name=neo4j-community-4.0.1-windows.zip",
     "extract_dir": "neo4j-community-4.0.1",
     "bin": [
-        ["bin/neo4j.bat", "alias", "neo4j"],
-        ["bin/neo4j-admin.bat", "alias", "neo4j-admin"]
+        ["bin/neo4j.bat", "neo4j"],
+        ["bin/neo4j-admin.bat", "neo4j-admin"]
     ],
     "persist": [
         "data"
