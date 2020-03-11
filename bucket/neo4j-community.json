@@ -5,6 +5,7 @@
     "url": "https://neo4j.com/artifact.php?name=neo4j-community-4.0.1-windows.zip",
     "extract_dir": "neo4j-community-4.0.1",
     "hash": {
+        "type": "sha256", 
         "url": "https://neo4j.com/wp-content/get_checksum.php?q=neo4j-community-4.0.1-windows.zip.sha256"
     },
     "bin": [
@@ -21,6 +22,7 @@
     "autoupdate": {
         "url": "https://neo4j.com/artifact.php?name=neo4j-community-$version-windows.zip",
         "hash": {
+            "type": "sha256", 
             "url": "https://neo4j.com/wp-content/get_checksum.php?q=neo4j-community-$version-windows.zip.sha256"
         },
         "extract_dir": "neo4j-community-$version"
