@@ -1,0 +1,25 @@
+{
+    "homepage": "https://neo4j.com/",
+    "description": "Neo4j Graph Platform – The Leader in Graph Databases",
+    "version": "4.0.1",
+    "url": "https://neo4j.com/artifact.php?name=neo4j-community-4.0.1-windows.zip",
+    "extract_dir": "neo4j-community-4.0.1",
+    "bin": [
+        ["bin/neo4j.bat", "alias", "neo4j"],
+        ["bin/neo4j-admin.bat", "alias", "neo4j-admin"]
+    ],
+    "persist": [
+        "data"
+    ],
+    "checkver": {
+        "url": "https://neo4j.com/download-center/#community",
+        "regex": "Neo4j Community Edition ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://neo4j.com/artifact.php?name=neo4j-community-$version-windows.zip",
+        "hash": {
+            "url": "https://neo4j.com/wp-content/get_checksum.php?q=neo4j-community-$version-windows.zip.sha256"
+        },
+        "extract_dir": "neo4j-community-$version"
+    }
+}
