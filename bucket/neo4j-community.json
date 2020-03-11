@@ -10,6 +10,7 @@
         ["bin\\neo4j-admin.bat", "neo4j-admin"]
     ],
     "persist": [
+        "conf", 
         "data", 
         "import",
         "plugins"
